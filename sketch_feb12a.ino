@@ -12,12 +12,12 @@ const int maxRetries = 5;
 #define RELAY_PIN_ON 14
 #define RELAY_PIN_OFF 18
 
-#define WIFI_SSID ""
-#define WIFI_PASSWORD ""
+#define WIFI_SSID "Enter your SSID"
+#define WIFI_PASSWORD "Enter your PASSWORD"
 #define CUSTOM_CHIP_ID "Indunil's_ESP32"
 
-#define API_KEY "AIzaSyCv33AAZH3xIDzfT_e6KBI-Iw3KlzRDoDI"
-#define DATABASE_URL "https://rice-cooker-datalogger-2024-default-rtdb.asia-southeast1.firebasedatabase.app/"
+#define API_KEY "Enter your database API"
+#define DATABASE_URL "Enter your Database URL"
 
 const int oneWireBus = 4;
 OneWire oneWire(oneWireBus);
